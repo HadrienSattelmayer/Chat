@@ -49,6 +49,10 @@
             this.cbAlmoxarifado = new System.Windows.Forms.ComboBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.botaoConectar = new System.Windows.Forms.Button();
+            this.textboxIp = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -262,10 +266,49 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(332, 122);
+            this.panel2.Location = new System.Drawing.Point(322, 108);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(327, 199);
             this.panel2.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(361, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(249, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Conecte-se à rede para interagir com seus colegas!";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(398, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(20, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "IP:";
+            // 
+            // botaoConectar
+            // 
+            this.botaoConectar.Location = new System.Drawing.Point(530, 21);
+            this.botaoConectar.Name = "botaoConectar";
+            this.botaoConectar.Size = new System.Drawing.Size(64, 23);
+            this.botaoConectar.TabIndex = 4;
+            this.botaoConectar.Text = "Conectar";
+            this.botaoConectar.UseVisualStyleBackColor = true;
+            this.botaoConectar.Click += new System.EventHandler(this.botaoConectar_Click);
+            // 
+            // textboxIp
+            // 
+            this.textboxIp.Location = new System.Drawing.Point(424, 24);
+            this.textboxIp.Name = "textboxIp";
+            this.textboxIp.Size = new System.Drawing.Size(100, 20);
+            this.textboxIp.TabIndex = 5;
+            this.textboxIp.TextChanged += new System.EventHandler(this.textboxIp_TextChanged);
             // 
             // TelaPrincipal
             // 
@@ -273,6 +316,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(734, 461);
+            this.Controls.Add(this.textboxIp);
+            this.Controls.Add(this.botaoConectar);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "TelaPrincipal";
@@ -280,6 +327,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelaPrincipal_FormClosing);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -305,5 +353,9 @@
         private System.Windows.Forms.ComboBox cbAtendimento;
         private System.Windows.Forms.ComboBox cbAlmoxarifado;
         private System.Windows.Forms.ComboBox cbAdministracao;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button botaoConectar;
+        private System.Windows.Forms.TextBox textboxIp;
     }
 }

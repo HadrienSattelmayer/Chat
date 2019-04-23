@@ -122,7 +122,7 @@
     <value>MS Reference Sans Serif, 12pt</value>
   </data>
   <data name="tbSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 284</value>
+    <value>142, 259</value>
   </data>
   <data name="tbSenha.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>255, 30</value>
@@ -132,7 +132,7 @@
     <value>*</value>
   </data>
   <data name="tbSenha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 20</value>
+    <value>266, 30</value>
   </data>
   <data name="tbSenha.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -157,13 +157,13 @@
     <value>MS Reference Sans Serif, 12pt</value>
   </data>
   <data name="tbLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 198</value>
+    <value>142, 186</value>
   </data>
   <data name="tbLogin.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>255, 30</value>
   </data>
   <data name="tbLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 20</value>
+    <value>266, 30</value>
   </data>
   <data name="tbLogin.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -384,7 +384,7 @@
     <value>MS Reference Sans Serif, 14pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 257</value>
+    <value>242, 232</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 24</value>
@@ -414,7 +414,7 @@
     <value>MS Reference Sans Serif, 14pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 171</value>
+    <value>242, 159</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 24</value>

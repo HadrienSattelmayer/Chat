@@ -41,10 +41,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.comboBoxSexo = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureAvatar = new System.Windows.Forms.PictureBox();
+            this.foto = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureAvatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.foto)).BeginInit();
             this.SuspendLayout();
             // 
             // tbNome
@@ -213,16 +213,17 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Nome Completo";
             // 
-            // pictureAvatar
+            // foto
             // 
-            this.pictureAvatar.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.pictureAvatar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureAvatar.Location = new System.Drawing.Point(256, 12);
-            this.pictureAvatar.Name = "pictureAvatar";
-            this.pictureAvatar.Size = new System.Drawing.Size(220, 173);
-            this.pictureAvatar.TabIndex = 11;
-            this.pictureAvatar.TabStop = false;
-            this.pictureAvatar.Click += new System.EventHandler(this.pictureAvatar_Click);
+            this.foto.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.foto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.foto.Location = new System.Drawing.Point(256, 12);
+            this.foto.Name = "foto";
+            this.foto.Size = new System.Drawing.Size(220, 173);
+            this.foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foto.TabIndex = 11;
+            this.foto.TabStop = false;
+            this.foto.Click += new System.EventHandler(this.pictureAvatar_Click);
             // 
             // label6
             // 
@@ -243,7 +244,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(734, 461);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.pictureAvatar);
+            this.Controls.Add(this.foto);
             this.Controls.Add(this.panel1);
             this.Name = "TelaCadastro";
             this.Text = "Form2";
@@ -251,7 +252,7 @@
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureAvatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.foto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,7 +265,7 @@
         private System.Windows.Forms.ComboBox comboBoxDPTO;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBoxSexo;
-        private System.Windows.Forms.PictureBox pictureAvatar;
+        private System.Windows.Forms.PictureBox foto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
